@@ -14,7 +14,7 @@ model = load("multiclass2_api.joblib")
 # testing purpose
 @app.get("/")
 def testing():
-    return {"myapi:":"myapi server is working"}
+    return {"myapi:":"hello"}
 
 # data predict
 
